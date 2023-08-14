@@ -24,7 +24,7 @@
                     $posicao = $i;
                 }
             }
-            echo "O menor valor informado é $menor_valor na $posicao º posição";
+            echo "O menor valor informado é $menor_valor na $posicao º posição.";
         ?>
     </h1>
     </body>
