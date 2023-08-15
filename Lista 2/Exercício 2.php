@@ -20,8 +20,7 @@
         <div class="row mt-3">
             <?php 
                 for($i=1; $i<=7; $i++){
-                ?>    
-                
+                ?>                   
             <div class="col">
                 <label for="" class="form-label">Informe o <?= $i?>º valor: </label>
                 <input type="number" name="valor<?= $i?>" id="valor<?= $i?>" class="form-control"/>
