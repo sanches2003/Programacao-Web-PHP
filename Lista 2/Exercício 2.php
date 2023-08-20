@@ -17,18 +17,26 @@
     <h3>Escreva um programa que leia 7 números diferentes, imprima o menor valor e imprima a posição do 
     menor valor na sequência de entrada.</h3>
     <form action="Exercício 2_resp.php" method="POST">
-        <div class="row mt-3">
-            <?php 
-                for($i=1; $i<=7; $i++){
-                ?>                   
+    <br>
+    <div class="row">
+        <?php
+            for ($i=1; $i<=7; $i++){
+        ?>
             <div class="col">
-                <label for="" class="form-label">Informe o <?= $i?>º valor: </label>
-                <input type="number" name="valor<?= $i?>" id="valor<?= $i?>" class="form-control"/>
+                <label for="valor<?=$i ?>" class="form-label">Digite o <?=$i ?>º valor</label>
+                <input type="number" name="valor<?=$i ?>" id="valor<?=$i ?>" class="form-control">
             </div>
-            <?php
-                }
-                ?>
+        <?php   
+            }
+        ?>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-success">Submeter</button>
         </div>
-        <button type="submit" class="btn btn-info mt-4">Imprimir</button>
+    </div>
+
+    </form>
   </body>
   </html>
