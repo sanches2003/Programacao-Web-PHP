@@ -28,7 +28,7 @@
         <br>
         <div class="row">
             <div  class="col"> 
-                <button type="submit" class="btn btn-danger">Submeter</button>
+                <button type="submit" class="btn btn-success">Submeter</button>
             </div>
         </div>
     </form>
