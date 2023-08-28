@@ -23,6 +23,7 @@
         $cont_pares++;
         else
         $cont_impares++;
+        
         if($valor >= 0)
         $cont_positivos;
         else
