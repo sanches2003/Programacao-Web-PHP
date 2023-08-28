@@ -23,11 +23,11 @@
         $cont_pares++;
         else
         $cont_impares++;
-        
+
         if($valor >= 0)
-        $cont_positivos;
+        $cont_positivos++;
         else
-        $cont_negativos;
+        $cont_negativos++;
     } 
     echo "<br/> Dos números digitados, possuímos $cont_positivos números positivos, $cont_negativos números negativos, 
     $cont_pares números pares e $cont_impares números ímpares.";
