@@ -12,7 +12,12 @@
     <form action="Exercício 1_resp.php" method="POST">
     <h5>Digite uma data</h5>
     <form method="POST" action="Exercício 1_resp.php">
-        <input type="date" name="date" id="date">
+        <label>Informe o dia:</label>
+        <input type="dia" name="dia" id="dia">
+        <label>Informe o mes:</label>
+        <input type="mes" name="mes" id="mes">
+        <label>Informe o ano:</label>
+        <input type="ano" name="ano" id="ano">
         <input type="submit" value="Validar">
     </form>
     </div>
