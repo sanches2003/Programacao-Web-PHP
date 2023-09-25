@@ -8,6 +8,10 @@ class Pessoa {
     private $endereco;
     private $idade;
 
+    function __construct($nome, $endereco, $idade){
+        $this->setNome($nome);
+    }
+
     function setNome($nome){
         $this->nome = $nome;
     }
