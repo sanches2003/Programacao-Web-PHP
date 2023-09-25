@@ -10,10 +10,13 @@ class Pessoa {
 
     function __construct($nome, $endereco, $idade){
         $this->setNome($nome);
+        $this->setEndereco($endereco);
+        $this->setIdade($idade);
     }
 
     function setNome($nome){
         $this->nome = $nome;
+       
     }
 
     function getNome(){
