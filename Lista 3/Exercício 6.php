@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrada de Produtos</title>
+    <title>Exercício 6 Lista 4</title>
     <!-- Inclua a referência ao CSS do Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Entrada de Produtos</h1>
+        <h1 class="mb-4">Digite algum produto</h1>
         <form action="exe6resp.php" method="post">
             <?php
             for ($i = 1; $i <= 5; $i++) {
@@ -23,7 +23,7 @@
                       </div>';
             }
             ?>
-            <button type="submit" class="btn btn-primary">Calcular</button>
+            <button type="submit" class="btn btn-info">Submeter</button>
         </form>
     </div>
     <!-- Inclua a referência ao JavaScript do Bootstrap -->
