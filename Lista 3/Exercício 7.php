@@ -10,7 +10,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="mb-4">Digite notas</h1>
-        <form action="exe7resp.php" method="post">
+        <form action="Exercício 7_resp.php" method="post">
             <?php
             for ($i = 1; $i <= 10; $i++) {
                 echo '<div class="mb-3">
