@@ -11,8 +11,14 @@
        for ($i=1;$i<=3;$i++){
         $vetor[$i] = $_POST["volta$i"];
         }
-        $volta = $_POST['volta'];
-        sort($volta);
+        function ordenarVoltas($volta) {
+            $volta = [$volta];
+            sort($volta);
+            return $volta;
+        }
+        function calcularMedia($volta) {
+            return ($volta) / 3;
+        }
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
